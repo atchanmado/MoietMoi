@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap web</title>
+  <!--bootstrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/6a765783e1.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+  <!--container img et header -->
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 pb-5">
+          <img src="image/aziz.jpeg" class="card-img" alt="moi et moi">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+
+
+          <div class="row bg-secondary text-white pt-5 pb-5">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+              <h3 style="margin-top: 2;">Atchamado Abdoul Aziz</h3>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2"><i class="fab fa-facebook  "></i></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2"><i class="fab fa-twitter-square  mt-2 mb-2 "></i></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2"><i class="fab fa-instagram-square  mt-2 mb-2 "></i>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2"><i class="fab fa-github-square  mt-2 mb-2 "></i></div>
+          </div>
+          <div class="row bg-dark text-white pt-4 pb-4">
+            Experianced Web develoer
+          </div>
+
+
+
+          <!--callapse col primary home , success resume, warning work, danger contact-->
+          <div class="row ">
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-3 bg-primary text-white pt-5 pb-5" id="headingOne"
+              data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <i class="fas fa-home"></i> Home
+             
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 bg-success text-white pt-5 pb-5" id="headingTwo"
+              data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <i class="fas fa-graduation-cap"></i>Resume
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 bg-warning text-white pt-5 pb-5" id="headingThree"
+              data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <i class="far fa-folder-open"></i>Work
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 bg-danger text-white pt-5 pb-5" id="headingfive"
+              data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+              <i class="fas fa-envelope"></i>Contact
+            </div>
+          </div>
+
+      
+        </div>
+      </div>
+    </div>
+
+<!--accordion -->
+    <div class="accordion" id="accordionExample">
+
+ <!--collapse progress-->     
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="container-fluid bg-primary text-white pt-5  pb-5">
+          <div class="row ">
+            <h6>welcome to my page</h6>
+          </div>
+          <div class="row">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row">
+            <h6>My Skills</h6>
+          </div>
+          <div class="row">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+
+        <div class="container">
+          <p>html</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p>CSS</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p>javaScript</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p>bootstrap</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p>Python</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+
+        <div class="container-fluid bg-dark pt-5 pb-5">
+          <button type="button" class="btn btn-outline-secondary"> <i class="fas fa-cloud-download-alt"></i>Downlload
+            Resume</button>
+        </div>
+
+      </div>
+
+
+<!--collapse resume-->
+<div id="collapseTwo" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="container-fluid bg-success pb-5 pt-5 text-white">
+          <div class="row">
+            <h6>My Resume</h6>
+          </div>
+          <div class="row">
+            <p>Lorem ipsum dolor sit amet consectetur,</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <h6>My Resume</h6>
+          </div>
+          <div class="row">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+              <div class="card-body">
+                <h6>codeloccol</h6>
+                <p>Some quick example text to build on the card title and make up the.</p>
+                <div class="un bg-dark text-white pt-1 pb-1 mb-2">position:Full stack Developer</div>
+                <div class="une bg-dark text-white pt-1 pb-1">phone +227 96 OO 00 00</div>
+              </div>
+              <div class="card-footer">Date:2015-2019</div>
+            </div>
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+              <div class="card-body">
+                <h6>Hakilou</h6>
+                <p>Some quick example text to build on the card title and make up the.</p>
+                <div class="un bg-dark text-white pt-1 pb-1 mb-2">position:Font end Develope</div>
+                <div class="une bg-dark text-white pt-1 pb-1">phone +227 96 OO 00 00</div>
+              </div>
+              <div class="card-footer">Date:2015-2019</div>
+            </div>
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+              <div class="card-body">
+                <h6>Ben Disigns</h6>
+                <p>Some quick example text to build on the card title and make up the.</p>
+                <div class="un bg-dark text-white pt-1 pb-1 mb-2">position:Font Disigner</div>
+                <div class="une bg-dark text-white pt-1 pb-1">phone +227 96 OO 00 00</div>
+              </div>
+              <div class="card-footer">Date:2019-2022</div>
+            </div>
+          </div>
+
+        </div>
+        <div class="container-fluid bg-dark pt-5 pb-5 mt-2">
+          <button type="button" class="btn btn-outline-secondary"> <i class="fas fa-cloud-download-alt"></i>Downlload
+            Resume</button>
+        </div>
+      </div>
+
+
+<!--collapse potfofio-->
+
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="container-fluid bg-warning text-white pt-5 pb-5 text-dark">
+          <div class="row">
+            <h6>My Resume</h6>
+          </div>
+          <div class="row">
+            <p>Lorem ipsum dolor sit amet consectetur,</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <h6>My potfolio</h6>
+          </div>
+          <div class="row">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="card">
+            <div class="card-body  d-flex">
+              <div class="row">
+                
+                  <div class="col">
+                    <img src="image/animal-g06a5ef493_640.jpg" class="rounded mx-auto d-block w-100" alt="...">
+                  </div>
+
+           
+
+                  <div class="col-4">
+                    <img src="image/horses-g102021f23_640.jpg" class="rounded mx-auto d-block w-100" alt="...">
+                  </div>
+
+
+               
+             
+
+           
+                  <div class="col-4">
+                    <img src="image/lions-g8b58b59e6_640.jpg" class="rounded mx-auto d-block w-100" alt="...">
+                  </div>
+
+
+                  <div class="col-4">
+                    <img src="image/parrot-gebf47343f_640.jpg" class="rounded mx-auto d-block w-100" alt="...">
+                  </div>
+
+
+               
+
+
+                  <div class="col-4">
+                    <img src="image/bird-gb290d70c8_640.jpg" class="rounded mx-auto d-block w-100 p-1" alt="...">
+                  </div>
+
+
+               
+
+
+
+                  <div class="col-4">
+                    <img src="image/bald-eagle-g61613248a_640.jpg" class="rounded mx-auto d-block w-100" alt="...">
+                  </div>
+
+
+               
+
+
+               
+                  
+               
+                </div>
+          </div>
+
+          </div>
+        </div>
+        <div class="container-fluid bg-dark pt-5 pb-5">
+          <button type="button" class="btn btn-outline-secondary"> <i class="fas fa-cloud-download-alt"></i>Downlload
+            Resume</button>
+        </div>
+      </div>
+
+
+
+<!--collapse contact -->
+
+
+      <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+        <div class="container-fluid bg-danger text-white  pt-5 pb-5 text-dark">
+          <div class="container">
+            <div class="row">
+              <h6>contact</h6>
+            </div>
+            <div class="row">
+              <p>Lorem ipsum dolor sit amet consectetur,</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h6>get in touch</h6>
+          <div class="row">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-4 text-center">
+              <form>
+                <div class="form-group">
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text bg-danger"><i class="fas fa-user"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Name">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text bg-danger"><i class="fas fa-envelope"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text bg-danger"><i class="fas fa-pencil-alt"></i></div>
+                    </div>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-danger btn-lg btn-block form-control"> submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bg-dark pt-5 pb-5">
+          <button type="button" class="btn btn-outline-secondary text-white"> <i
+              class="fas fa-cloud-download-alt"></i>Downlload Resume</button>
+        </div>
+      </div>
+
+
+    </div>
+<div class="container-fluid bg-danger p-5" style="color: white; text-align: center;">
+  <h3> codeloccol 2022<i class="fa fa-copyright" aria-hidden="true"></i></h3>
+  
+</div>
+   
+  </div>
+  
+
+  <!--bootstrap js-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+<div class="accordion" id="accordionExample">
+
+
+
+
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
